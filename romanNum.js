@@ -15,7 +15,7 @@ function solution(num) {
 		'I',
 	];
 
-	if (num === 0) {
+	if (num == 0) {
 		return '';
 	}
 
@@ -70,7 +70,8 @@ function solution(num) {
 	}
 	// when num is 0 we have our new array with all letters & we using join('') method to return the result as a String
 
+	console.log(newArr.join(''));
 	return newArr.join('');
 }
 
-solution(1992); //   -----> MCMXCII
+solution(6000); //   -----> MCMXCII
